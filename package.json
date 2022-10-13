@@ -1,0 +1,15 @@
+{
+  "name": "sunnyside-agency-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass --watch ./sass/main.scss ./css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
