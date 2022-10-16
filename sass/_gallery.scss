@@ -1,0 +1,15 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	img {
+		width: 50%;
+		height: 50%;
+	}
+
+	@media screen and (min-width: 35em) {
+		img {
+			width: 25%;
+			height: 25%;
+		}
+	}
+}

@@ -30,6 +30,7 @@
 
 .side-to-side .cherry,
 .side-to-side .orange {
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 35rem;
@@ -57,7 +58,7 @@
     font-family: 'Fraunces', sans-serif;
     color: #23303e; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 35em) {
   .side-to-side {
     display: flex; }
     .side-to-side .section-left {
@@ -266,3 +267,98 @@ input {
       gap: 5rem; }
     .header .header-content h1 {
       width: auto; } }
+
+.client-testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem; }
+  .client-testimonials h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #a7abae;
+    text-align: center; }
+  .client-testimonials .testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+  .client-testimonials .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem; }
+    .client-testimonials .testimonial .testimonial-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .client-testimonials .testimonial .testimonial-content img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%; }
+    .client-testimonials .testimonial .testimonial-content p {
+      font-family: 'Barlow', sans-serif;
+      font-size: 18px;
+      color: #23303e;
+      padding: 1rem;
+      width: 35ch; }
+    .client-testimonials .testimonial .client-details {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem; }
+    .client-testimonials .testimonial .client-details h3 {
+      font-family: 'Fraunces', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 900;
+      color: #23303e; }
+    .client-testimonials .testimonial .client-details span {
+      font-family: 'Barlow', sans-serif;
+      font-size: 1rem;
+      color: #a7abae; }
+  @media screen and (min-width: 30em) {
+    .client-testimonials {
+      padding: 5rem; }
+      .client-testimonials .testimonials {
+        min-height: 30rem; } }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap; }
+  .gallery img {
+    width: 50%;
+    height: 50%; }
+  @media screen and (min-width: 35em) {
+    .gallery img {
+      width: 25%;
+      height: 25%; } }
+
+.footer {
+  background-color: #458c7e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 3rem; }
+  .footer nav {
+    max-width: 35rem; }
+    .footer nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 1rem;
+      list-style: none; }
+      .footer nav ul li {
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+        color: #25564b;
+        text-align: center; }
+  .footer .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 3rem; }

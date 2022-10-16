@@ -36,6 +36,7 @@
 
 	.cherry,
 	.orange {
+		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		min-height: 35rem;
@@ -68,7 +69,7 @@
 		}
 	}
 
-	@media screen and (min-width: 30em) {
+	@media screen and (min-width: 35em) {
 		display: flex;
 		.section-left {
 			width: 50%;

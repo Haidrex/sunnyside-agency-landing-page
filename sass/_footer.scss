@@ -1,0 +1,34 @@
+.footer {
+	background-color: hsl(168, 34%, 41%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+	gap: 3rem;
+
+	nav {
+		max-width: 35rem;
+
+		ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			gap: 1rem;
+			list-style: none;
+			li {
+				font-family: 'Barlow', sans-serif;
+				font-size: 18px;
+				color: hsl(167, 40%, 24%);
+				text-align: center;
+			}
+		}
+	}
+
+	.social-icons {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		gap: 1rem;
+		margin-top: 3rem;
+	}
+}
