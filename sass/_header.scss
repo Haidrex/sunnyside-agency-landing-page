@@ -38,6 +38,12 @@
 			padding: 0.5rem 1rem;
 			border-radius: 30px;
 			font-weight: 700;
+			transition: all 0.2s;
+
+			&:hover {
+				background-color: hsl(200, 100%, 72%);
+				color:hsl(0, 0%, 100%);
+			}
 		}
 	}
 
@@ -53,6 +59,16 @@
 			background: hsl(0, 0%, 100%);
 			padding: 2rem;
 		}
+		.top-nav:before {
+			content: "";
+			position: absolute;
+			bottom: 99%;
+			right: 0;
+			width: 0;
+			border-bottom: 30px solid hsl(0, 0%, 100%);;
+			border-left: 24px solid transparent;
+			border-right: 0px solid transparent;
+		  }
 		.top-nav > ul {
 			display: grid;
 			gap: 2.5rem;
@@ -69,6 +85,12 @@
 			background-color: hsl(51, 100%, 49%);
 			padding: 0.8rem 1.5rem;
 			border-radius: 30px;
+			transition: all 0.2s;
+
+			&:hover {
+				background-color: hsl(200, 100%, 72%);
+				color:hsl(0, 0%, 100%);
+			}
 		}
 	}
 

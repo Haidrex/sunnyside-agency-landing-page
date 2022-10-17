@@ -6,6 +6,8 @@
 	padding: 2rem;
 	gap: 3rem;
 
+	
+
 	nav {
 		max-width: 35rem;
 
@@ -20,6 +22,11 @@
 				font-size: 18px;
 				color: hsl(167, 40%, 24%);
 				text-align: center;
+				
+				&:hover {
+					cursor: pointer;
+					color: hsl(0, 0%, 100%);
+				}
 			}
 		}
 	}
@@ -30,5 +37,9 @@
 		justify-content: space-around;
 		gap: 1rem;
 		margin-top: 3rem;
+		img:hover {
+			cursor: pointer;
+			filter: invert(96%) sepia(27%) saturate(8%) hue-rotate(196deg) brightness(103%) contrast(100%);
+		}
 	}
 }
